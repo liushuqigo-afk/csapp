@@ -1,0 +1,107 @@
+{
+  "backup_directory": "archives/readme-backups/20261006-170255",
+  "files": [
+    {
+      "path": "labs/archlab/README",
+      "sha256": "9c8a5b1bf214810a03329e83abc71ea5cad3f102fc7d490557b267896dbbed12",
+      "bytes": 649,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/archlab/sim/README",
+      "sha256": "3c841537652eb584bb3d6772a061f736077814602e01f64d206c8e1b24490725",
+      "bytes": 3565,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/archlab/sim/misc/README",
+      "sha256": "40647fd399ff62dfbf236737bf834ff13121403a6dab2dc780138c2cf81a8099",
+      "bytes": 1975,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/archlab/sim/pipe/README",
+      "sha256": "a04a7ec351aa5d56d7e7dec89731a200e95f2ac5f938d2218becee2679e3f369",
+      "bytes": 5679,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/archlab/sim/ptest/README",
+      "sha256": "c68dafcdcaa7ac6e771f3dca456331b85c99bd1e79d569320382d1757bef8e23",
+      "bytes": 1623,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/archlab/sim/seq/README",
+      "sha256": "7323d801bd3e396c67f5db511fcfc8b55378fd547101a72aac47743e9fc3feed",
+      "bytes": 3089,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/README",
+      "sha256": "b9d13be7564d86a792a6b32983f48c925ca474881a9998a80a092a46b7665b2a",
+      "bytes": 760,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/attacklab/README.txt",
+      "sha256": "b89ed399a82c05db8d54b84b01be31684b1c9f2fa45f3e6090de4e0006487af3",
+      "bytes": 635,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/bomblab/README",
+      "sha256": "c7637ac6e30f2c31a3aeb84efdb631913d64e4616c57779bb459724392a9480b",
+      "bytes": 49,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/cachelab/README",
+      "sha256": "b63d523ba512563792490dc12e07b16556afdd814f7f3a26c1031bad35c3d86d",
+      "bytes": 1184,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/datalab/README",
+      "sha256": "0ac05b83f891dd43f9217af4ace287b923cc6842f70f48b8e4d044f909359398",
+      "bytes": 4564,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/malloclab/README",
+      "sha256": "bb8e4d824723fe836f5420fcd4c1170ef610c424514dc9d1d7bcc357cbbf658e",
+      "bytes": 1444,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/malloclab/traces/README.md",
+      "sha256": "41d32cc5792ed646e5572ab3ffccbb702482a3e25b60f5e5e57058b9ba9ffbf3",
+      "bytes": 1167,
+      "contains_chinese": true
+    },
+    {
+      "path": "labs/perflab/README",
+      "sha256": "e7f42763943095befacf322e568a1c15dca0e6862bbb19a2ea32627f99f6fb7c",
+      "bytes": 1140,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/proxylab/README",
+      "sha256": "bdffd59e0dda2f7114a3a18a060d5736c6df7a1a7706a82dd60903d9b0586b0f",
+      "bytes": 1406,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/proxylab/tiny/README",
+      "sha256": "9284ebc3cd0831043a3a3364ed2185972f2985cb4a2ed8f8da6ff9ea9dac7e96",
+      "bytes": 1289,
+      "contains_chinese": false
+    },
+    {
+      "path": "labs/shelllab/README",
+      "sha256": "5608369fcb9d49cd7979171716d022d2c01fb711039f690d355e32277ff33565",
+      "bytes": 761,
+      "contains_chinese": false
+    }
+  ]
+}

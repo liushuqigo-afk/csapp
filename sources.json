@@ -1,0 +1,1011 @@
+{
+  "retrieved_on": "2026-10-04",
+  "edition": "CS:APP3e",
+  "course": "CMU 15-213 Fall 2015",
+  "artifacts": [
+    {
+      "path": "archives/examples/02-03-bits-ints.tar",
+      "sha256": "8702be35606fa150089550664ccbb382692813dfa64d3067b479a500378ab25d",
+      "bytes": 30720,
+      "archive": "archives/examples/code.tar",
+      "member": "code/02-03-bits-ints.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/05-machine-basics.tar",
+      "sha256": "795511cb0ef05f1ec6e189c64b06cd9b5a33429e0b0253af83293c3497427427",
+      "bytes": 40960,
+      "archive": "archives/examples/code.tar",
+      "member": "code/05-machine-basics.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/06-machine-control.tar",
+      "sha256": "95481db9216c81ebe6ea7980c9addf7624ed76ad8a0bd2a90873175d335bb8c6",
+      "bytes": 30720,
+      "archive": "archives/examples/code.tar",
+      "member": "code/06-machine-control.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/07-machine-procedures.tar",
+      "sha256": "0be06420fa477fe586801671c254b3941c3de7b7e38341545281bcf48848f8b4",
+      "bytes": 30720,
+      "archive": "archives/examples/code.tar",
+      "member": "code/07-machine-procedures.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/08-machine-data.tar",
+      "sha256": "9859454bbfd1bc5d23c66ed29936764eb97e7a025efa09e823e2daf5ea8fac1a",
+      "bytes": 30720,
+      "archive": "archives/examples/code.tar",
+      "member": "code/08-machine-data.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/09-machine-advanced.tar",
+      "sha256": "0564f07a3c4cc2fd0d356e34fcdcdb6d946cd54ecbd85d0b29cf805a18cad877",
+      "bytes": 133120,
+      "archive": "archives/examples/code.tar",
+      "member": "code/09-machine-advanced.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/10-optimization.tar",
+      "sha256": "10b6c396167e743636bdf0428d83993e0dfc6a33be1dfa89454efe493b8d69be",
+      "bytes": 20480,
+      "archive": "archives/examples/code.tar",
+      "member": "code/10-optimization.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/12-cache-memories.tar",
+      "sha256": "498774d5b37ee781a280a9cdff45bdef7e917b4f0ac5df7ab65ffdae39fe7ec6",
+      "bytes": 133120,
+      "archive": "archives/examples/code.tar",
+      "member": "code/12-cache-memories.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/13-linking.tar",
+      "sha256": "77444da80ac416fb56a84466ce67c9a7d8f1765a729064c10f81b8189ba77b11",
+      "bytes": 1085440,
+      "archive": "archives/examples/code.tar",
+      "member": "code/13-linking.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/14-ecf-procs.tar",
+      "sha256": "6f5812a3e360fe66713387fd61231594079d57006ad0315a61f493e03221ba5f",
+      "bytes": 327680,
+      "archive": "archives/examples/code.tar",
+      "member": "code/14-ecf-procs.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/15-ecf-signals.tar",
+      "sha256": "958842802e27e0ad82510a02a8ba59d406ef30d73010a75cc1289febc5b97abb",
+      "bytes": 460800,
+      "archive": "archives/examples/code.tar",
+      "member": "code/15-ecf-signals.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/16-io.tar",
+      "sha256": "5976beba214db6c99a39e026bfa00b8658fc9be7c13720175e796f536657e202",
+      "bytes": 256000,
+      "archive": "archives/examples/code.tar",
+      "member": "code/16-io.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/18-vm-systems.tar",
+      "sha256": "f89036be70cce617a86f9f3dc797677fec21acdedc28af3ff929526bfcf14c63",
+      "bytes": 133120,
+      "archive": "archives/examples/code.tar",
+      "member": "code/18-vm-systems.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/19-malloc-basic.tar",
+      "sha256": "38453244bd705c6b64b16875b10e1a3d739f07a5ef2231ddcccd4b3cd57d5653",
+      "bytes": 10240,
+      "archive": "archives/examples/code.tar",
+      "member": "code/19-malloc-basic.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/22-netprog2.tar",
+      "sha256": "4115e6d9fe457f594058dcf89148837c4a013848330a168616acbae4c94cde02",
+      "bytes": 440320,
+      "archive": "archives/examples/code.tar",
+      "member": "code/22-netprog2.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/23-concprog.tar",
+      "sha256": "3621d76565ff0d97b6f74c961fbf6e6ea97f8aec5d7f4b2371b03236778ee2a6",
+      "bytes": 419840,
+      "archive": "archives/examples/code.tar",
+      "member": "code/23-concprog.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/24-sync-basic.tar",
+      "sha256": "c98a5d3ae2e885797ac7f1eb5da637cc8e634f9214361876e8174820f8a5cae0",
+      "bytes": 143360,
+      "archive": "archives/examples/code.tar",
+      "member": "code/24-sync-basic.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/25-sync-advanced.tar",
+      "sha256": "79b232acd2b00bd8b0b93784aef382f675ac747147aebdf1a07802e9fe63ca40",
+      "bytes": 143360,
+      "archive": "archives/examples/code.tar",
+      "member": "code/25-sync-advanced.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "path": "archives/examples/26-parallelism.tar",
+      "sha256": "f0a1fd8188fcbbf6dfd1cd20318978a0013ebfd8a56ccbd9d485cb3150c8411b",
+      "bytes": 286720,
+      "archive": "archives/examples/code.tar",
+      "member": "code/26-parallelism.tar",
+      "kind": "bundled_archive",
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html"
+    },
+    {
+      "name": "CSAPP3e complete textbook code",
+      "url": "https://csapp.cs.cmu.edu/3e/code-all.tar",
+      "upstream_page": "https://csapp.cs.cmu.edu/3e/code.html",
+      "extracted_path": "examples/textbook",
+      "bytes": 27852800,
+      "sha256": "1be590472f18d26e8d46929c851807d672508e70ca10701b5a7283b679544288",
+      "retrieved_on": "2026-10-04",
+      "notes": "Skipped three Emacs editor lock symlinks; original archive preserved.",
+      "skipped_entries": [
+        "code/asm/.#cfiles.txt",
+        "code/link/.#relo2prob.c",
+        "code/link/.#p-exe.d"
+      ],
+      "path": "archives/examples/code-all.tar",
+      "kind": "textbook_code"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/code.tar",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "06ad09d0f1715925f1f18a70dcfde8bd4a263aa0f8a4046b04f320126aef26fb",
+      "bytes": 17582080,
+      "path": "archives/examples/code.tar"
+    },
+    {
+      "lab": "archlab",
+      "kind": "handout",
+      "path": "archives/labs/archlab-handout.tar",
+      "url": "https://csapp.cs.cmu.edu/3e/archlab-handout.tar",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "586fc3347214ccd90e1c7cbfa74560c59584f8cf452d81c653acfd73344797d4",
+      "bytes": 1392640,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.834003+00:00",
+      "root_in_archive": "archlab-handout",
+      "file_count": 5,
+      "extracted_path": "labs/archlab",
+      "validation": {
+        "tar_paths": "relative; no traversal, symlinks, hardlinks or special files",
+        "upstream_files_unchanged": true,
+        "number_of_original_files": 5,
+        "expected_entries": [
+          "sim.tar",
+          "simguide.pdf",
+          "sim/misc/yas.c",
+          "sim/misc/yis.c",
+          "sim/seq/seq-full.hcl",
+          "sim/pipe/pipe-full.hcl",
+          "sim/pipe/ncopy.ys",
+          "sim/ptest/optest.pl"
+        ]
+      },
+      "bundled_simulator": {
+        "path": "labs/archlab/sim.tar",
+        "sha256": "aac789d967ccd4db530a177c827401feecd905ac9119929abe4200575735ce28",
+        "extracted_path": "labs/archlab/sim",
+        "file_count": 83,
+        "isa": "Y86-64"
+      }
+    },
+    {
+      "lab": "bomblab",
+      "kind": "handout",
+      "path": "archives/labs/bomb.tar",
+      "url": "https://csapp.cs.cmu.edu/3e/bomb.tar",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "4b005c5d13d53b77fcbb435b87c1e5ef88027144594bb39e1e494f1f93d39ed9",
+      "bytes": 40960,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.823306+00:00",
+      "root_in_archive": "bomb",
+      "file_count": 3,
+      "extracted_path": "labs/bomblab",
+      "validation": {
+        "tar_paths": "relative; no traversal, symlinks, hardlinks or special files",
+        "upstream_files_unchanged": true,
+        "number_of_original_files": 3,
+        "expected_entries": [
+          "bomb",
+          "bomb.c",
+          "README"
+        ]
+      }
+    },
+    {
+      "lab": "cachelab",
+      "kind": "handout",
+      "path": "archives/labs/cachelab-handout.tar",
+      "url": "https://csapp.cs.cmu.edu/3e/cachelab-handout.tar",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "de37f176d21338c65fc5bd5eb163c06df97fda2a3f1d21f577e25247f80ba64b",
+      "bytes": 4116480,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.827985+00:00",
+      "root_in_archive": "cachelab-handout",
+      "file_count": 16,
+      "extracted_path": "labs/cachelab",
+      "validation": {
+        "tar_paths": "relative; no traversal, symlinks, hardlinks or special files",
+        "upstream_files_unchanged": true,
+        "number_of_original_files": 16,
+        "expected_entries": [
+          "csim.c",
+          "trans.c",
+          "csim-ref",
+          "test-csim",
+          "test-trans.c",
+          "driver.py",
+          "traces/long.trace"
+        ]
+      }
+    },
+    {
+      "lab": "datalab",
+      "kind": "handout",
+      "path": "archives/labs/datalab-handout.tar",
+      "url": "https://csapp.cs.cmu.edu/3e/datalab-handout.tar",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "a3bd21b752ecc7724d284417b1e19aa9f3839554893a4282ebe8e901c9fb2e02",
+      "bytes": 1075200,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.824996+00:00",
+      "root_in_archive": "datalab-handout",
+      "file_count": 14,
+      "extracted_path": "labs/datalab",
+      "validation": {
+        "tar_paths": "relative; no traversal, symlinks, hardlinks or special files",
+        "upstream_files_unchanged": true,
+        "number_of_original_files": 14,
+        "expected_entries": [
+          "bits.c",
+          "btest.c",
+          "tests.c",
+          "dlc",
+          "driver.pl",
+          "Makefile"
+        ]
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "handout",
+      "path": "archives/labs/malloclab-handout.tar",
+      "url": "https://csapp.cs.cmu.edu/3e/malloclab-handout.tar",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "5f7aaeb98fb90e3b59f44627f5ede3eab1f99cf5047492ed40a489e22a859e2c",
+      "bytes": 92160,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.822321+00:00",
+      "root_in_archive": "malloclab-handout",
+      "file_count": 23,
+      "extracted_path": "labs/malloclab",
+      "validation": {
+        "tar_paths": "relative; no traversal, symlinks, hardlinks or special files",
+        "upstream_files_unchanged": true,
+        "number_of_original_files": 23,
+        "expected_entries": [
+          "mm.c",
+          "mdriver.c",
+          "memlib.c",
+          "short1-bal.rep",
+          "short2-bal.rep",
+          "traces/realloc2-bal.rep"
+        ]
+      }
+    },
+    {
+      "lab": "perflab",
+      "kind": "handout",
+      "path": "archives/labs/perflab-handout.tar",
+      "url": "https://csapp.cs.cmu.edu/3e/perflab-handout.tar",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "ecd223d4809033a25313eec832626973089b09b9d25abaf17128e0159a57fc0f",
+      "bytes": 51200,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.832584+00:00",
+      "root_in_archive": [
+        "Makefile",
+        "README",
+        "clock.c",
+        "clock.h",
+        "config.h",
+        "defs.h",
+        "driver.c",
+        "fcyc.c",
+        "fcyc.h",
+        "kernels.c"
+      ],
+      "file_count": 10,
+      "extracted_path": "labs/perflab",
+      "validation": {
+        "tar_paths": "relative; no traversal, symlinks, hardlinks or special files",
+        "upstream_files_unchanged": true,
+        "number_of_original_files": 10,
+        "expected_entries": [
+          "kernels.c",
+          "driver.c",
+          "defs.h",
+          "Makefile"
+        ]
+      }
+    },
+    {
+      "lab": "proxylab",
+      "kind": "handout",
+      "path": "archives/labs/proxylab-handout.tar",
+      "url": "https://csapp.cs.cmu.edu/3e/proxylab-handout.tar",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "9664e70733dc7eb467a15f622f0fcf7f110670e34430478ae4f580aafe964b39",
+      "bytes": 133120,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.831509+00:00",
+      "root_in_archive": "proxylab-handout",
+      "file_count": 19,
+      "extracted_path": "labs/proxylab",
+      "validation": {
+        "tar_paths": "relative; no traversal, symlinks, hardlinks or special files",
+        "upstream_files_unchanged": true,
+        "number_of_original_files": 19,
+        "expected_entries": [
+          "proxy.c",
+          "csapp.c",
+          "csapp.h",
+          "driver.sh",
+          "nop-server.py",
+          "tiny/tiny.c"
+        ]
+      }
+    },
+    {
+      "lab": "shelllab",
+      "kind": "handout",
+      "path": "archives/labs/shlab-handout.tar",
+      "url": "https://csapp.cs.cmu.edu/3e/shlab-handout.tar",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "3aaad75abb6654eb5073690a3af2bc82f3ac031daccdb85866095566b4b0b8cc",
+      "bytes": 81920,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.825677+00:00",
+      "root_in_archive": "shlab-handout",
+      "file_count": 26,
+      "extracted_path": "labs/shelllab",
+      "validation": {
+        "tar_paths": "relative; no traversal, symlinks, hardlinks or special files",
+        "upstream_files_unchanged": true,
+        "number_of_original_files": 26,
+        "expected_entries": [
+          "tsh.c",
+          "tshref",
+          "sdriver.pl",
+          "trace01.txt",
+          "trace16.txt"
+        ]
+      }
+    },
+    {
+      "lab": "attacklab",
+      "kind": "handout",
+      "path": "archives/labs/target1.tar",
+      "url": "https://csapp.cs.cmu.edu/3e/target1.tar",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "7a2aea42ea275cb7620dc0d579113f7b3d41885a3e954bd3cf244cacc6db267d",
+      "bytes": 174080,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.826220+00:00",
+      "root_in_archive": "target1",
+      "file_count": 6,
+      "extracted_path": "labs/attacklab",
+      "validation": {
+        "tar_paths": "relative; no traversal, symlinks, hardlinks or special files",
+        "upstream_files_unchanged": true,
+        "number_of_original_files": 6,
+        "expected_entries": [
+          "ctarget",
+          "rtarget",
+          "hex2raw",
+          "cookie.txt",
+          "farm.c",
+          "README.txt"
+        ]
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "trace",
+      "path": "labs/malloclab/traces/amptjp-bal.rep",
+      "url": "https://www.clear.rice.edu/comp321/test-cases/malloc/amptjp-bal.rep",
+      "upstream": "Rice University COMP 321 published course test data; same 11 default names and mdriver format used by CS:APP self-study handout",
+      "source_page": "https://www.clear.rice.edu/comp321/labs/lab08/",
+      "sha256": "df8ea9a628df86b6a0c3491598c78a18d975f8efa989b7d7019f65154f342494",
+      "bytes": 50615,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:56:53.797455+00:00",
+      "validation": {
+        "number_of_ids": 2847,
+        "number_of_operations": 5694,
+        "format": "CS:APP mdriver .rep: 4-line header; a/r/f operations",
+        "validated": true
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "trace",
+      "path": "labs/malloclab/traces/binary-bal.rep",
+      "url": "https://www.clear.rice.edu/comp321/test-cases/malloc/binary-bal.rep",
+      "upstream": "Rice University COMP 321 published course test data; same 11 default names and mdriver format used by CS:APP self-study handout",
+      "source_page": "https://www.clear.rice.edu/comp321/labs/lab08/",
+      "sha256": "12d7330679e215880adc6fe21bc25e47f5cd72f6db8a0515c858df9a1c8bebe2",
+      "bytes": 103801,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:56:55.158879+00:00",
+      "validation": {
+        "number_of_ids": 6000,
+        "number_of_operations": 12000,
+        "format": "CS:APP mdriver .rep: 4-line header; a/r/f operations",
+        "validated": true
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "trace",
+      "path": "labs/malloclab/traces/binary2-bal.rep",
+      "url": "https://www.clear.rice.edu/comp321/test-cases/malloc/binary2-bal.rep",
+      "upstream": "Rice University COMP 321 published course test data; same 11 default names and mdriver format used by CS:APP self-study handout",
+      "source_page": "https://www.clear.rice.edu/comp321/labs/lab08/",
+      "sha256": "068e34c928a054a8e2180845a620b1a29b06366472f592c1a528670eb604a977",
+      "bytes": 213802,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:56:55.702256+00:00",
+      "validation": {
+        "number_of_ids": 12000,
+        "number_of_operations": 24000,
+        "format": "CS:APP mdriver .rep: 4-line header; a/r/f operations",
+        "validated": true
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "trace",
+      "path": "labs/malloclab/traces/cccp-bal.rep",
+      "url": "https://www.clear.rice.edu/comp321/test-cases/malloc/cccp-bal.rep",
+      "upstream": "Rice University COMP 321 published course test data; same 11 default names and mdriver format used by CS:APP self-study handout",
+      "source_page": "https://www.clear.rice.edu/comp321/labs/lab08/",
+      "sha256": "fc60c779c8d24aac8783b0a35c7ea31488eac567cadcc43e2fbb198a5d40da7a",
+      "bytes": 52070,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:56:53.859873+00:00",
+      "validation": {
+        "number_of_ids": 2924,
+        "number_of_operations": 5848,
+        "format": "CS:APP mdriver .rep: 4-line header; a/r/f operations",
+        "validated": true
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "trace",
+      "path": "labs/malloclab/traces/coalescing-bal.rep",
+      "url": "https://www.clear.rice.edu/comp321/test-cases/malloc/coalescing-bal.rep",
+      "upstream": "Rice University COMP 321 published course test data; same 11 default names and mdriver format used by CS:APP self-study handout",
+      "source_page": "https://www.clear.rice.edu/comp321/labs/lab08/",
+      "sha256": "6353bd8ff80d84fdd1678ff122dd105d5cbc81a9ccf5d51d54718c9294c60bef",
+      "bytes": 134602,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:56:54.192896+00:00",
+      "validation": {
+        "number_of_ids": 7200,
+        "number_of_operations": 14400,
+        "format": "CS:APP mdriver .rep: 4-line header; a/r/f operations",
+        "validated": true
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "trace",
+      "path": "labs/malloclab/traces/cp-decl-bal.rep",
+      "url": "https://www.clear.rice.edu/comp321/test-cases/malloc/cp-decl-bal.rep",
+      "upstream": "Rice University COMP 321 published course test data; same 11 default names and mdriver format used by CS:APP self-study handout",
+      "source_page": "https://www.clear.rice.edu/comp321/labs/lab08/",
+      "sha256": "b920339c0b716ae46f718b45e4225583ab18fbe315f2b170fc2c2c0706b24d03",
+      "bytes": 59679,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:56:53.843912+00:00",
+      "validation": {
+        "number_of_ids": 3324,
+        "number_of_operations": 6648,
+        "format": "CS:APP mdriver .rep: 4-line header; a/r/f operations",
+        "validated": true
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "trace",
+      "path": "labs/malloclab/traces/expr-bal.rep",
+      "url": "https://www.clear.rice.edu/comp321/test-cases/malloc/expr-bal.rep",
+      "upstream": "Rice University COMP 321 published course test data; same 11 default names and mdriver format used by CS:APP self-study handout",
+      "source_page": "https://www.clear.rice.edu/comp321/labs/lab08/",
+      "sha256": "548cc175b8faaa0b76c08c402245954645bdb30c8342b18a7078af2d68241d5b",
+      "bytes": 47807,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:56:53.843957+00:00",
+      "validation": {
+        "number_of_ids": 2690,
+        "number_of_operations": 5380,
+        "format": "CS:APP mdriver .rep: 4-line header; a/r/f operations",
+        "validated": true
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "trace",
+      "path": "labs/malloclab/traces/random-bal.rep",
+      "url": "https://www.clear.rice.edu/comp321/test-cases/malloc/random-bal.rep",
+      "upstream": "Rice University COMP 321 published course test data; same 11 default names and mdriver format used by CS:APP self-study handout",
+      "source_page": "https://www.clear.rice.edu/comp321/labs/lab08/",
+      "sha256": "2035f966adae68d71f6540e70d23aa7d2ce181ad7a67b44af849b197fab971e8",
+      "bytes": 45027,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:56:53.644149+00:00",
+      "validation": {
+        "number_of_ids": 2400,
+        "number_of_operations": 4800,
+        "format": "CS:APP mdriver .rep: 4-line header; a/r/f operations",
+        "validated": true
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "trace",
+      "path": "labs/malloclab/traces/random2-bal.rep",
+      "url": "https://www.clear.rice.edu/comp321/test-cases/malloc/random2-bal.rep",
+      "upstream": "Rice University COMP 321 published course test data; same 11 default names and mdriver format used by CS:APP self-study handout",
+      "source_page": "https://www.clear.rice.edu/comp321/labs/lab08/",
+      "sha256": "54810dfc961b858532ea53219a606e2015013cf1ac4a363ec321d89a077cb0ca",
+      "bytes": 44970,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:56:54.824880+00:00",
+      "validation": {
+        "number_of_ids": 2400,
+        "number_of_operations": 4800,
+        "format": "CS:APP mdriver .rep: 4-line header; a/r/f operations",
+        "validated": true
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "trace",
+      "path": "labs/malloclab/traces/realloc-bal.rep",
+      "url": "https://www.clear.rice.edu/comp321/test-cases/malloc/realloc-bal.rep",
+      "upstream": "Rice University COMP 321 published course test data; same 11 default names and mdriver format used by CS:APP self-study handout",
+      "source_page": "https://www.clear.rice.edu/comp321/labs/lab08/",
+      "sha256": "d67589e9f2cb786e5fa5de3d8e0d7dc3b5d659bf5a84114cc6a06842cb4badcf",
+      "bytes": 136150,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:56:55.552171+00:00",
+      "validation": {
+        "number_of_ids": 4801,
+        "number_of_operations": 14401,
+        "format": "CS:APP mdriver .rep: 4-line header; a/r/f operations",
+        "validated": true
+      }
+    },
+    {
+      "lab": "malloclab",
+      "kind": "trace",
+      "path": "labs/malloclab/traces/realloc2-bal.rep",
+      "url": "https://www.clear.rice.edu/comp321/test-cases/malloc/realloc2-bal.rep",
+      "upstream": "Rice University COMP 321 published course test data; same 11 default names and mdriver format used by CS:APP self-study handout",
+      "source_page": "https://www.clear.rice.edu/comp321/labs/lab08/",
+      "sha256": "369ad55a47165bcb5641301ca94a22672a450d17b7c9295821b3401c35e6fb7f",
+      "bytes": 126228,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:56:55.369642+00:00",
+      "validation": {
+        "number_of_ids": 4801,
+        "number_of_operations": 14401,
+        "format": "CS:APP mdriver .rep: 4-line header; a/r/f operations",
+        "validated": true
+      }
+    },
+    {
+      "lab": "archlab",
+      "kind": "writeup",
+      "path": "materials/lab-writeups/archlab.pdf",
+      "url": "https://csapp.cs.cmu.edu/3e/archlab.pdf",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "eb3f136c12dea0848507b9f86ba188c9e3ef09b6fa588005244b606c7ec24882",
+      "bytes": 166655,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.835328+00:00"
+    },
+    {
+      "lab": "attacklab",
+      "kind": "writeup",
+      "path": "materials/lab-writeups/attacklab.pdf",
+      "url": "https://csapp.cs.cmu.edu/3e/attacklab.pdf",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "61d020b7240c15ed3bb7c711cca0ac87baeb48c418d59c6bc3513d0209a21d62",
+      "bytes": 189138,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.832852+00:00"
+    },
+    {
+      "lab": "bomblab",
+      "kind": "writeup",
+      "path": "materials/lab-writeups/bomblab.pdf",
+      "url": "https://csapp.cs.cmu.edu/3e/bomblab.pdf",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "be4991aa83e89fe9ffb1acd60816d41530edfca1d47093dd74effa38e3d9d31e",
+      "bytes": 23093,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.829285+00:00"
+    },
+    {
+      "lab": "cachelab",
+      "kind": "writeup",
+      "path": "materials/lab-writeups/cachelab.pdf",
+      "url": "https://csapp.cs.cmu.edu/3e/cachelab.pdf",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "2521ccdd867f23d607745a429570d7d863566d28c27711324f8fa879c1b4b8cd",
+      "bytes": 47072,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.831749+00:00"
+    },
+    {
+      "lab": "datalab",
+      "kind": "writeup",
+      "path": "materials/lab-writeups/datalab.pdf",
+      "url": "https://csapp.cs.cmu.edu/3e/datalab.pdf",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "ed961965830e7b217376ee26894f6e17aead76a1ef75c578a37b144891b8dc58",
+      "bytes": 23198,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.828032+00:00"
+    },
+    {
+      "lab": "malloclab",
+      "kind": "writeup",
+      "path": "materials/lab-writeups/malloclab.pdf",
+      "url": "https://csapp.cs.cmu.edu/3e/malloclab.pdf",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "e922e0ed09f474c2f402b7223690b5c5ca13feb08c8e0377a0c5bd260338c40b",
+      "bytes": 39851,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.834232+00:00"
+    },
+    {
+      "lab": "perflab",
+      "kind": "writeup",
+      "path": "materials/lab-writeups/perflab.pdf",
+      "url": "https://csapp.cs.cmu.edu/3e/perflab.pdf",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "4df792de73ca6ad2900254a0a9de846f7be0a1ea4f077298364c8eae36050aac",
+      "bytes": 58640,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.834965+00:00"
+    },
+    {
+      "lab": "proxylab",
+      "kind": "writeup",
+      "path": "materials/lab-writeups/proxylab.pdf",
+      "url": "https://csapp.cs.cmu.edu/3e/proxylab.pdf",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "f43ce66288e8a99613e5bc66f3cecbf826c2b3b0144ff2c9acca1e5368c499f0",
+      "bytes": 100614,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.835024+00:00"
+    },
+    {
+      "lab": "shelllab",
+      "kind": "writeup",
+      "path": "materials/lab-writeups/shlab.pdf",
+      "url": "https://csapp.cs.cmu.edu/3e/shlab.pdf",
+      "upstream": "CMU CS:APP3e official self-study handout / writeup",
+      "source_page": "https://csapp.cs.cmu.edu/3e/labs.html",
+      "sha256": "ebabdfa2a3147996246b6950303b601c1e38b772fa34b191d4bc33383b0ed156",
+      "bytes": 35668,
+      "status": "downloaded",
+      "downloaded_at_utc": "2026-10-04T06:54:40.832983+00:00"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/01-overview.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "93419ee7df0fe8e2abc41d14501cf91ea1e4a13bd436d01d56d59a1afe605220",
+      "bytes": 8377884,
+      "path": "materials/lectures/01-overview.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/02-03-bits-ints.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "3e001ca9621d8e66a6c8c18e101feb631815c0a6a53a9dd490b352ce7131980a",
+      "bytes": 1594162,
+      "path": "materials/lectures/02-03-bits-ints.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/04-float.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "270edad78447fc7f3ec560d0638ae16d838d1aef83bd388d3867c129f7f6d927",
+      "bytes": 504708,
+      "path": "materials/lectures/04-float.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/05-machine-basics.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "eb4fba80f8cf36537597b6a0e628b60c8d5adda5e3bc96265bb241325b7380da",
+      "bytes": 1300882,
+      "path": "materials/lectures/05-machine-basics.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/06-machine-control.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "a893c05f01ec16aeb56989c6e83b79e632711a40f038c9cbda50920b14e61f03",
+      "bytes": 1888910,
+      "path": "materials/lectures/06-machine-control.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/07-machine-procedures.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "8c666a4c5dc3239375d484b97ad1e52fd405d241044209a745fb7d3f3cdfa1d0",
+      "bytes": 2532852,
+      "path": "materials/lectures/07-machine-procedures.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/08-machine-data.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "47c46ba4ad32e7e11a6105b2398bbca8258ed9080d2eecf6facc9161cea88114",
+      "bytes": 521830,
+      "path": "materials/lectures/08-machine-data.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/09-machine-advanced.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "2a4167f19d113dffddca002dc68c6aca0af2dea658ca90dc5c5f7458016759b7",
+      "bytes": 529898,
+      "path": "materials/lectures/09-machine-advanced.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/10-optimization.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "5d8eced13dfd35030a444ccdc83f10724e4c3677ac4ccdb233aec59cc7dc0b14",
+      "bytes": 378035,
+      "path": "materials/lectures/10-optimization.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/11-memory-hierarchy.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "8b4dfbac151da3e514c913b76b23b870bb335df6a97d26666136f51c239178c8",
+      "bytes": 1524814,
+      "path": "materials/lectures/11-memory-hierarchy.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/12-cache-memories.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "3337567250372ad6cf880e25ef8cde4d3b6eb577d16c9a83b6889ad0e59a8f92",
+      "bytes": 1581025,
+      "path": "materials/lectures/12-cache-memories.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/13-linking.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "05e145e6b2650fec94bea42c61e6ad66f18c592ff5055725ae54b110e07f5f35",
+      "bytes": 323229,
+      "path": "materials/lectures/13-linking.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/14-ecf-procs.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "04b665c8017c22c2885f9f2ca2b2bdf5b3918e769003f63e6b0e7af9b2d0b1e1",
+      "bytes": 579706,
+      "path": "materials/lectures/14-ecf-procs.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/15-ecf-signals.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "7c21561e1f4d83984a09ffba03d2bf88ddd1ba208de6ee00829a48055b501fbd",
+      "bytes": 381588,
+      "path": "materials/lectures/15-ecf-signals.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/16-io.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "5e100af5a9d128035493f4a225dd3471fbed396e57c61b67166e5466d58fd9b3",
+      "bytes": 780288,
+      "path": "materials/lectures/16-io.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/17-vm-concepts.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "e2a4b91655e4c057958119efc1d4a30c70aec2791f9f7554a618987a19a289b4",
+      "bytes": 282874,
+      "path": "materials/lectures/17-vm-concepts.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/18-vm-systems.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "5f53db509c9bf74178f755e979346577f947c87422c59af88d00465297f3ad8a",
+      "bytes": 557894,
+      "path": "materials/lectures/18-vm-systems.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/19-malloc-basic.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "8f8d0d1c1ee15931be122582715a2e353b53bacc9f9811119e2bd3635d1af8c4",
+      "bytes": 263327,
+      "path": "materials/lectures/19-malloc-basic.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/20-malloc-advanced.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "aa473bbde362c8a5b0a66c43c219f8768142f05e90ac847920680716aab6e446",
+      "bytes": 295653,
+      "path": "materials/lectures/20-malloc-advanced.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/21-netprog1.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "ac7ef60ee4fd8f03c685abf5c6fdf8c01002bec18511500e81aca354a0bb8f5a",
+      "bytes": 462143,
+      "path": "materials/lectures/21-netprog1.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/22-netprog2.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "77ea45b2e88dda24da5d05e3ca6b7b2e2633181cdfd3065d61cfc8a89e89265d",
+      "bytes": 587260,
+      "path": "materials/lectures/22-netprog2.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/23-concprog.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "f27a61203d56c7008e26393bdc2958d972290cd3c795e609c893610dc800ac13",
+      "bytes": 286933,
+      "path": "materials/lectures/23-concprog.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/24-sync-basic.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "17c9e226653cb19225e245b2184e04bbcc4ddc57c61d712a32ecbe75b256ffed",
+      "bytes": 269493,
+      "path": "materials/lectures/24-sync-basic.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/25-sync-advanced.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "a0176b8410e5864354d2c2e3048ef9016a69cd2b061c9fa11f0b6c525e1db4f9",
+      "bytes": 260091,
+      "path": "materials/lectures/25-sync-advanced.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/26-parallelism.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "7df87b4f9133ddd1b4707ac0c732664e4fb63131ffbc42dcc69bfa15db87410f",
+      "bytes": 475002,
+      "path": "materials/lectures/26-parallelism.pdf"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/lectures/27-future.pdf",
+      "upstream": "CMU 15-213 Fall 2015",
+      "upstream_page": "https://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html",
+      "sha256": "d49ded1309eb3c38e82d035bf65c8dbfc157f9a0c79c8fc3e451513515d8e064",
+      "bytes": 1952752,
+      "path": "materials/lectures/27-future.pdf"
+    }
+  ],
+  "notes": [
+    "Official self-study handouts; student solution functions remain as supplied.",
+    "Textbook and lecture tarballs retained; top-level code/ directory stripped during extraction.",
+    "Skipped 3 Emacs lock symlinks from textbook archive and 1 from lecture archive.",
+    "Architecture sim.tar extracted under labs/archlab/sim; original sim.tar preserved.",
+    "Malloc default trace data supplemented from Rice University public COMP321 course.",
+    "SHA-256 values establish downloaded file integrity; they are locally computed, not publisher-signed."
+  ]
+}

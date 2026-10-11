@@ -1,0 +1,73 @@
+{
+  "backup_directory": "archives/readme-backups/20261006-171047",
+  "files": [
+    {
+      "path": "labs/archlab/README",
+      "sha256": "12907148d648f5f0e842da8ab683a0f796b5b097d8b4eaadedffccbc09aa4de8"
+    },
+    {
+      "path": "labs/archlab/sim/README",
+      "sha256": "99125c26cf42490bcfeec7e36dbe40002acf01f442c4eb5a0438926a7a804e21"
+    },
+    {
+      "path": "labs/archlab/sim/misc/README",
+      "sha256": "eeb7200be3d8418858f0cc5d6de71688ea4c76339a9aeddcf1a06344fb01b88b"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/README",
+      "sha256": "a1f5c820b88b1256f9ff8c59a5d7573b65db693e87058dac5758f24582e8e7fd"
+    },
+    {
+      "path": "labs/archlab/sim/ptest/README",
+      "sha256": "917e786e6ec13ea38ed6c3e64bb5f823a2e4843321d01314f53ff6c13179da8f"
+    },
+    {
+      "path": "labs/archlab/sim/seq/README",
+      "sha256": "b70ca4ad12ece5dd4454d145edff6c170dc29ad69adfb95695ce1c9efb1e78cf"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/README",
+      "sha256": "e2093d23a3bf71f8230f4249b0c5bf7aaaf301b934a35e61164b633f801817d0"
+    },
+    {
+      "path": "labs/attacklab/README.txt",
+      "sha256": "99760e7328eba928385856cb4633415c2b67f5a96b235ba2cfbc62bf33cac0e2"
+    },
+    {
+      "path": "labs/bomblab/README",
+      "sha256": "bfde25b88ff8668e57be162752cad2a4507353d915399b2c5d478da2d42b441d"
+    },
+    {
+      "path": "labs/cachelab/README",
+      "sha256": "eff0f80ffddc92619f7b885aa44b0e1917cb7a195ec832fdbe663d9696077ecb"
+    },
+    {
+      "path": "labs/datalab/README",
+      "sha256": "3c46a4cd2aa0762242ba7949a936cd471b8970d0097eb3e69fed428e931b7b33"
+    },
+    {
+      "path": "labs/malloclab/README",
+      "sha256": "b084a6b977915c44b4f0d88ab986b73efa73d22a86e8c940e21a5fcf4ea3e196"
+    },
+    {
+      "path": "labs/malloclab/traces/README.md",
+      "sha256": "41d32cc5792ed646e5572ab3ffccbb702482a3e25b60f5e5e57058b9ba9ffbf3"
+    },
+    {
+      "path": "labs/perflab/README",
+      "sha256": "248421f8e45cf0af0e267511b3f6441b0c9a12ec93186125476d85a5bc6e08ad"
+    },
+    {
+      "path": "labs/proxylab/README",
+      "sha256": "be83c38cb0495b8db3375b44a64a69cea730097a529376917fd0af16f5c64231"
+    },
+    {
+      "path": "labs/proxylab/tiny/README",
+      "sha256": "ee3cc256d936f9f999b411dc5b29f69fd584cb710db9c176b4dff38397e5e4c1"
+    },
+    {
+      "path": "labs/shelllab/README",
+      "sha256": "5f3b5518a07ef8b59121e433b77e4ecad8bdc597a641d3c79d9e0e8809bdbd9a"
+    }
+  ]
+}

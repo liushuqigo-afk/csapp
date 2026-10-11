@@ -1,0 +1,874 @@
+{
+  "readmes": [
+    {
+      "path": "labs/archlab/README",
+      "sha256": "e7cdb595281483fbe32bb068c706d9a369f458feb507c4cc000592e629110c99"
+    },
+    {
+      "path": "labs/archlab/sim/README",
+      "sha256": "35b1722b03daa82fec29a639de4fe679b89e589f102e452f60831a62e240b9bf"
+    },
+    {
+      "path": "labs/archlab/sim/misc/README",
+      "sha256": "685d02c6ce100a02264e9595c2662b901f7cb118e51ffdf85b568b61eb2dfb24"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/README",
+      "sha256": "c4a48022c5795870d93af9ff4cfe35291db3f1345d870bb301827571faf0ddae"
+    },
+    {
+      "path": "labs/archlab/sim/ptest/README",
+      "sha256": "4bda9495729daef91092886ef6d8ed67838eaa042fc148ba5e4a484ac13f948f"
+    },
+    {
+      "path": "labs/archlab/sim/seq/README",
+      "sha256": "7ea7fd91f96598e3e47edda027939a9350ecfa4372e6c59e56bf966e1b5643f0"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/README",
+      "sha256": "54afd47f0bc28fd3296f730b19a74562e8a8d1beb8eefb126917c92b10c7df2f"
+    },
+    {
+      "path": "labs/attacklab/README.txt",
+      "sha256": "383757b1c04ed6d7494e1c5d8144fa3de6b873c7afa8c2c38108761b2f1980bc"
+    },
+    {
+      "path": "labs/bomblab/README",
+      "sha256": "47c41dc8060cc26788dd3e8dd3d5b669d7bcc61cfab127fe51be0ac10b453b53"
+    },
+    {
+      "path": "labs/cachelab/README",
+      "sha256": "4d709a2082a03aa4584d4de22707270b6e8a8ce536af2b46d5b155fa3dcfaeaa"
+    },
+    {
+      "path": "labs/datalab/README",
+      "sha256": "58d37c5a8ebf6e75b08e46b740df9354d066b1211fcccd1c91e13f33dc19deac"
+    },
+    {
+      "path": "labs/malloclab/README",
+      "sha256": "a8f4d28834228494ba4b6936f235ef78af0462fab993c8a066b9f8feacec6d56"
+    },
+    {
+      "path": "labs/malloclab/traces/README.md",
+      "sha256": "41d32cc5792ed646e5572ab3ffccbb702482a3e25b60f5e5e57058b9ba9ffbf3"
+    },
+    {
+      "path": "labs/perflab/README",
+      "sha256": "89b6d03ec472c485eb54f144a69f536d2ab274c65b4aa9cc801b41425885bc45"
+    },
+    {
+      "path": "labs/proxylab/README",
+      "sha256": "e5b00b89145a988b226ff418ad316c4cb58fa05384dd152d039968223307657e"
+    },
+    {
+      "path": "labs/proxylab/tiny/README",
+      "sha256": "77bd889687eccb902203c3ca860336d53f3e8aee0bf9eec0fef5d46be25923e8"
+    },
+    {
+      "path": "labs/shelllab/README",
+      "sha256": "5608369fcb9d49cd7979171716d022d2c01fb711039f690d355e32277ff33565"
+    }
+  ],
+  "other_lab_files": [
+    {
+      "path": "labs/archlab/Makefile",
+      "sha256": "92f29d7fe7ee1170f962396395c223171b145fa80a5fdfc0c1b93ef707996ab4"
+    },
+    {
+      "path": "labs/archlab/archlab.pdf",
+      "sha256": "27d18607a295e23089102f9fcb4615f80f1435e0b0abaa913ecd49758cfd7e1f"
+    },
+    {
+      "path": "labs/archlab/sim/Makefile",
+      "sha256": "6863866b042beb5cff3edf9a13f5b3ed40ddddf81ee8cda680712f45f872b556"
+    },
+    {
+      "path": "labs/archlab/sim/misc/Makefile",
+      "sha256": "310f52770f4ee06248b66f7dddef77123ebd846c3d71ae96cfc60e819bd1bdd0"
+    },
+    {
+      "path": "labs/archlab/sim/misc/examples.c",
+      "sha256": "cf01167397b7f378db20fac949460067fd7ca8e05d0512cbf1b8610fda0478a8"
+    },
+    {
+      "path": "labs/archlab/sim/misc/hcl.lex",
+      "sha256": "d42404bf0b45fdec4ab390225816e586d264e3a1a132377fc99d4f83894a1928"
+    },
+    {
+      "path": "labs/archlab/sim/misc/hcl.tab.c",
+      "sha256": "2a45fdb0bfd74c14278cf1a28b322014c8817343f1ac26a4ffa13f0946af2f16"
+    },
+    {
+      "path": "labs/archlab/sim/misc/hcl.tab.h",
+      "sha256": "6f97799c276144e82dbac9d85dbdd39e845b1ed81b14cf5383ddd6f41c0716d3"
+    },
+    {
+      "path": "labs/archlab/sim/misc/hcl.y",
+      "sha256": "db0229b4bd3544c00427afbe271413109757ecf2be03cce2cc8358eef54b6f0b"
+    },
+    {
+      "path": "labs/archlab/sim/misc/isa.c",
+      "sha256": "e06689a2389b8438731a363aa5bafb0fd94d5b80f863d535517aa533f3e81ed2"
+    },
+    {
+      "path": "labs/archlab/sim/misc/isa.h",
+      "sha256": "d1a5fbb26b071899d866b95d2ac6698bf7ee12ad0c5f338f8cd2ee56d1d65e85"
+    },
+    {
+      "path": "labs/archlab/sim/misc/lex.yy.c",
+      "sha256": "161e7997c820e345a9bcbacd7da22ca6399638f85a3505ea098230204e8c4ad5"
+    },
+    {
+      "path": "labs/archlab/sim/misc/mux4.hcl",
+      "sha256": "4d5dbdabf37527f649009083538a1d5a15af0c38ee06f6f0a531e7fb0b688e2e"
+    },
+    {
+      "path": "labs/archlab/sim/misc/node.c",
+      "sha256": "0c09ce1cb97ab005e55e3ae2a2d0b73a38041ad5f29e21e1848d65543c8293a0"
+    },
+    {
+      "path": "labs/archlab/sim/misc/node.h",
+      "sha256": "c58def9ee1538cef3f95541a6d94851833de4082ea9da67b575b1823fe18278b"
+    },
+    {
+      "path": "labs/archlab/sim/misc/outgen.c",
+      "sha256": "aa6702805683d216fbb98eadc8a343df70895dba776d6ad7a3cc33d75ddf72fd"
+    },
+    {
+      "path": "labs/archlab/sim/misc/outgen.h",
+      "sha256": "90a6a68b5aa12af0dca14205f95c52eca60db5bc364c9aabc906800f1228d9f3"
+    },
+    {
+      "path": "labs/archlab/sim/misc/yas-grammar.c",
+      "sha256": "4c39e9dc983525b69db7df1afef960dffca3dfccd99a8b25a057bcee5f67c7f4"
+    },
+    {
+      "path": "labs/archlab/sim/misc/yas-grammar.lex",
+      "sha256": "c7ac77380a2fd42aa8f8ce7b6563bf2745ddbabf3c04338ad7bbc5e8746aa6d5"
+    },
+    {
+      "path": "labs/archlab/sim/misc/yas.c",
+      "sha256": "5a02b979113a29c87d8f9c84a04270c7a0ffef4a5c8ed4bf772eab10548605e0"
+    },
+    {
+      "path": "labs/archlab/sim/misc/yas.h",
+      "sha256": "41ca735a7860fd22461e4a8081901a016e3d9350a6734329dc27016aaf9bd330"
+    },
+    {
+      "path": "labs/archlab/sim/misc/yis.c",
+      "sha256": "6b1b54c35aa068a91cc5e5d7c0441929d1b6f2d0d7c39f9d9ba92ba28286c6c2"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/Makefile",
+      "sha256": "5a65f0e8b538444789245101d75f7a6bfb1b52dc79cd0f6fafec3dc4c480854f"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/benchmark.pl",
+      "sha256": "d249897a44ade112434e6ff4ef91af9cdb9e0ecdf1267ec95639659da628eec6"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/check-len.pl",
+      "sha256": "46f85db3a9e912b31bdd79ed9f787f542d46b448d492182d54b718737107bfd3"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/correctness.pl",
+      "sha256": "7c70b73c7660f34c4dd2d45fe1e6d1156a49012736033672112720825dc972f3"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/gen-driver.pl",
+      "sha256": "1fbbf3538eba8311071026b2bad279700d892717c75410b59def6bf2a5b4e29c"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/ncopy.c",
+      "sha256": "1512cd7234c5e6fe2d0f0e0247b0223d587e08c11fbf119dc0e03ee6c16b541b"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/ncopy.ys",
+      "sha256": "013f0cf4043802746a299ac931a211820e033c343ba2aac62f90b8509d3923b6"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/pipe-1w.hcl",
+      "sha256": "55a7c47c02c0cf18250377ded0485df94aceee582f49b241e9d4e0e4d1251cb4"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/pipe-broken.hcl",
+      "sha256": "420898c99332ae7808fc820e50626a2b752cff0a636c543575222da30a955c95"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/pipe-btfnt.hcl",
+      "sha256": "62a1c2e842b0666787772bd53e45b09798ca99ac85c0a3713695d46566023918"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/pipe-full.hcl",
+      "sha256": "8ac9b2280c32ff21ff4a883659320f72dc8776b106fdbe95d04caffb82478ea2"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/pipe-lf.hcl",
+      "sha256": "17c5c67c8a4f03bc229cb90a1cfde24ac936612ca76d1de431303f2fa12fa052"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/pipe-nobypass.hcl",
+      "sha256": "bc5ed43792e116d2e6ab461602642f0e3f7f294185851f0e8df6353d4515bf3a"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/pipe-nt.hcl",
+      "sha256": "668beeb57140b3fe499afee41c04ec9ae596a31b973494cf8c327156a3d1bbaa"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/pipe-std.hcl",
+      "sha256": "cc3075d63b7ab2a6650fbdb69fc2e65fd1b4912c8556a09a15b0a8e98f1c14db"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/pipe.tcl",
+      "sha256": "522a695140b639bc3b2439110845c56c16b68ecf183f78021edf6f2baa648751"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/pipeline.h",
+      "sha256": "74e52461266cd1f14f02b5d3c7e6a7269ea364ab4e691bd94c69023f3cc802e3"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/psim.c",
+      "sha256": "6816c2c9fcff70c2ed0449d4f9c894767a4d8acee2a4f7d664f26d5ad2b16262"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/sim.h",
+      "sha256": "910a317d644f00f3259d8b1d2160f9916796a697083863fd27303006674d81ed"
+    },
+    {
+      "path": "labs/archlab/sim/pipe/stages.h",
+      "sha256": "9ede363afee6628dfdb24d16b6f28638d420f2bef8132cd5600f9f6a6180f251"
+    },
+    {
+      "path": "labs/archlab/sim/ptest/Makefile",
+      "sha256": "a218b95b6efea4b354327467cad4cd563dba61a79a085d5fb25a698b0bac441b"
+    },
+    {
+      "path": "labs/archlab/sim/ptest/ctest.pl",
+      "sha256": "f2da5ab7408c69d342302e2db8d689d8df901e55baa1459b2d01f2c566e0f63f"
+    },
+    {
+      "path": "labs/archlab/sim/ptest/etest.pl",
+      "sha256": "945bfb22a487821af8526059e782623dfd20e8f748f5e43d43672251fa77ede5"
+    },
+    {
+      "path": "labs/archlab/sim/ptest/htest.pl",
+      "sha256": "122e0d5a9f374c084716d50cdf3e8a177bc094e8d487020184cd0749a4d78e77"
+    },
+    {
+      "path": "labs/archlab/sim/ptest/jtest.pl",
+      "sha256": "937bfe59f0fb8ab51c6528153ae41efcc19e86474982ef9038c0f7fad2be4f8b"
+    },
+    {
+      "path": "labs/archlab/sim/ptest/optest.pl",
+      "sha256": "d25da9c2e6367a5551c02115ac924d204bafda85ccf09663d33e415220ed20ec"
+    },
+    {
+      "path": "labs/archlab/sim/ptest/tester.pm",
+      "sha256": "0cb27df74b7dcfdef9e5a3d5c3d45eaf58bd972b63596d2b9b6a44b79086c5d5"
+    },
+    {
+      "path": "labs/archlab/sim/seq/Makefile",
+      "sha256": "b41679c0e5f90008a03ed54d7fc4ba5119084a6f1a41c0b8201ee7ebd2500df0"
+    },
+    {
+      "path": "labs/archlab/sim/seq/seq+-std.hcl",
+      "sha256": "e7a48f92c8d1a99ee337bed51be277dff6b5be5e8850df4d580b2650c22f2bfc"
+    },
+    {
+      "path": "labs/archlab/sim/seq/seq+.tcl",
+      "sha256": "0f0868af70eb938f8569dd572ef3d15ee94c26ff83ef71d709abbc55a197da5f"
+    },
+    {
+      "path": "labs/archlab/sim/seq/seq-full.hcl",
+      "sha256": "884e2f41bdb9a686987caa872067ec22d525cd1a3eeed1f8fcc8848fa618d02a"
+    },
+    {
+      "path": "labs/archlab/sim/seq/seq-std.hcl",
+      "sha256": "313a86d6e41cbc0cf722a5507c8b6e8fafd8aef915ee43bc17db75eb9fde8b18"
+    },
+    {
+      "path": "labs/archlab/sim/seq/seq.tcl",
+      "sha256": "67cc444c7aae175b099a1b0b65b0a74c9ff9c474968fd20e4a4b877d86930ddd"
+    },
+    {
+      "path": "labs/archlab/sim/seq/sim.h",
+      "sha256": "2ede35e293e116d73703f3baed410e5d6995978f57a15c1ba7117dd8ad2ddfd4"
+    },
+    {
+      "path": "labs/archlab/sim/seq/ssim.c",
+      "sha256": "82ee1993feecf2ae445c1f8676a78a40317b02a48984f4cde17d131673e08e6b"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/Makefile",
+      "sha256": "1b31650e47bee1d9c4d66d23f68b532991d986a88287af27df6f0b523532b5cd"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/abs-asum-cmov.ys",
+      "sha256": "59b15adcff626326ade32391a8567f20d390a3683b83bc267d582cc318738849"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/abs-asum-jmp.ys",
+      "sha256": "78f4b77ea4ff047bd3996e4d7522ce1df73d17bf0bf1cde07ba7d7df415d93f2"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/asum.ys",
+      "sha256": "ade036308c76b8cf924103ada3964b1c06935f7c130961e155a6262cf2677658"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/asumi.ys",
+      "sha256": "6143abede445fee557b85e700acba2196841a8ca53ba84ff25947023dffd3d42"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/asumr.ys",
+      "sha256": "56f85e1c7d5fc6928c4357c6404398329e7c673ff235180c8617e65071b3b008"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/cjr.ys",
+      "sha256": "57e5bed9cf80d550c4bbd108af4dcfa0b615e3349e55944c7fc31a61f449ff4d"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/j-cc.ys",
+      "sha256": "e8080c7004fa147c80a136a7e0a86b81aebefa3ca8000aa7bbc3d2d9a43d345c"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/poptest.ys",
+      "sha256": "0c1951de997cd56932686ee5e89e2836ef5abc9ed31a9033f130937bd0a5825d"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/prog1.ys",
+      "sha256": "0f1dc0ecf185c439b37f31830306ff68d0f93295b98d9f9f15c8b3923a4a3d3a"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/prog10.ys",
+      "sha256": "165543311496feef7d76c8423700a86819f7707a01661cd8e385e37070c15d2c"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/prog2.ys",
+      "sha256": "da1d87124fad3a5402d72f4c785ef9a6e2f26094de99e02bc19f74ad221a83ca"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/prog3.ys",
+      "sha256": "8a37eb54eadfe08145a213705ed98347a0ecd546a1cd6bd920190a2f7714963c"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/prog4.ys",
+      "sha256": "b18aee6ca2a8c5e00d72491dcd6e446ccfac676645328a2a8dc523dcf9ba957f"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/prog5.ys",
+      "sha256": "ea026ef0f2310934fcc99d5dc90f951006e4c9532e41083281a0181d163ade75"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/prog6.ys",
+      "sha256": "8e73d2c06f86d9cbb597eb97c79e1e594dccd6e9f19413589d05d7e04527fcf9"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/prog7.ys",
+      "sha256": "112b76817cbf456d7cd39316003679f74a945b0788e5b58f81fe78c50d36e3ea"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/prog8.ys",
+      "sha256": "9a2711948cdffc49e37ab844eb3c03c7ffec92f05cf8797a4d6e4a6f2ed7003c"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/prog9.ys",
+      "sha256": "728034c84174575826a2461efca0d4e3daf8e008b05470a9a4a5254711db25a9"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/pushquestion.ys",
+      "sha256": "0d9a7e37e62e0bfe45ce3c389960eb054ca18f683f2cf11642da7fc0948f25d0"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/pushtest.ys",
+      "sha256": "4d0dee64a36e116391e76db3c25c52d8217dcdedb7c287881018813c28e55a1d"
+    },
+    {
+      "path": "labs/archlab/sim/y86-code/ret-hazard.ys",
+      "sha256": "e2509a55337cddf17cd7bbd44a0397319f2cb875c8330051fe1721c5ee4d7df9"
+    },
+    {
+      "path": "labs/archlab/sim.tar",
+      "sha256": "aac789d967ccd4db530a177c827401feecd905ac9119929abe4200575735ce28"
+    },
+    {
+      "path": "labs/archlab/simguide.pdf",
+      "sha256": "423adfdadd714f242d0c675f50c428ff7810e193a94adb141dc7bfb9d4b61a8c"
+    },
+    {
+      "path": "labs/attacklab/cookie.txt",
+      "sha256": "4d0a08538d98a35cbff5c3a56bd3f9c7f6435dd7104644faa700653f04774ed8"
+    },
+    {
+      "path": "labs/attacklab/ctarget",
+      "sha256": "1c71d90dd20a28ffdd32b8bd7986ec440c1fde1f16427ed35d4cb4617611659d"
+    },
+    {
+      "path": "labs/attacklab/farm.c",
+      "sha256": "14d6b7418b827e31ff9087a9451c7ca34fec395dc9ea2947612dc719f18a350a"
+    },
+    {
+      "path": "labs/attacklab/hex2raw",
+      "sha256": "9b5beb6ee5c13c229f5ec04732e92cd09d3e7232959396ddd461c4e22d78ea31"
+    },
+    {
+      "path": "labs/attacklab/rtarget",
+      "sha256": "be8394b826199bddcdcddb79bf3a3a4233dc70e5a9a9637dff79ba2edb24b4b0"
+    },
+    {
+      "path": "labs/bomblab/bomb",
+      "sha256": "8849e033691d51426c0c91a76eeb0c346eddd37e8fdf21cd93acd16669f1b461"
+    },
+    {
+      "path": "labs/bomblab/bomb.c",
+      "sha256": "bfce779ac575e3bb21333a305e27cb68ad156f51c7774059d6aacc2927e2ebf2"
+    },
+    {
+      "path": "labs/cachelab/Makefile",
+      "sha256": "3d2a94c6f3cf7f6809fc251d5004f4fb3b61f4562abf65b4accefba26a2864e3"
+    },
+    {
+      "path": "labs/cachelab/cachelab.c",
+      "sha256": "384312270b7c6b4a491c1f238734e0f1384177e70cc28db947c813f73ebb4ea5"
+    },
+    {
+      "path": "labs/cachelab/cachelab.h",
+      "sha256": "37944a7990ecc1e97f157378c92d1d1176b09a7adf8bf92a41f13df2ecced33b"
+    },
+    {
+      "path": "labs/cachelab/csim-ref",
+      "sha256": "cb874de8d4e4a1156e583a39c17be814ba23a67377d675cb66623e92cc5c6dbd"
+    },
+    {
+      "path": "labs/cachelab/csim.c",
+      "sha256": "c09b18ea1dc01aee5e73ef9e9b8abe5714d3d065f2f1cc057564889efeafd559"
+    },
+    {
+      "path": "labs/cachelab/driver.py",
+      "sha256": "df903dd1b53fa021172fb68e79463f14f12d3b71df44aaff813b02fc782e25bf"
+    },
+    {
+      "path": "labs/cachelab/test-csim",
+      "sha256": "83fb5275ed792b692a78199dfec1b8b3121957ed57124bdf32797a5cde0a97cc"
+    },
+    {
+      "path": "labs/cachelab/test-trans.c",
+      "sha256": "b04e6253fd8974f3f2a00f067ad07e3845c6f8cedc68b55e1a87656f07c7fbc7"
+    },
+    {
+      "path": "labs/cachelab/tracegen.c",
+      "sha256": "852dd237a4f6d9fb0ae81fe3d0d2db59d91b93c6193ca826c9095300b217b5ff"
+    },
+    {
+      "path": "labs/cachelab/traces/dave.trace",
+      "sha256": "aa9258ab36c87e1e27fca8df6e57eeb289424ef555ce4cc94aa05eb2f8571e50"
+    },
+    {
+      "path": "labs/cachelab/traces/long.trace",
+      "sha256": "b02653b0585199a3b5ac7ba19877d6acd1c1125eec4077584152f1a2522f273a"
+    },
+    {
+      "path": "labs/cachelab/traces/trans.trace",
+      "sha256": "82b6f31def792b685ff3de2de22958f1b7f9d3d1c1971419a32a5f8fa5808cac"
+    },
+    {
+      "path": "labs/cachelab/traces/yi.trace",
+      "sha256": "3560a6f5004ef1f415ac49ed76865de9f83b0f3e2d8371387ad67682ddfb15b6"
+    },
+    {
+      "path": "labs/cachelab/traces/yi2.trace",
+      "sha256": "5e75a9c2525cee46bb6cc034578b135a9b88ebe29206822adcd0c61065ade15b"
+    },
+    {
+      "path": "labs/cachelab/trans.c",
+      "sha256": "375d019b8c511a23a70366c4f77b25ed92a8e683987ce078b0e0cc13f6f56578"
+    },
+    {
+      "path": "labs/datalab/Driverhdrs.pm",
+      "sha256": "ed426823982a611e3915cb8a52f86acec4b102fda52e7c4800be69ec113d71e9"
+    },
+    {
+      "path": "labs/datalab/Driverlib.pm",
+      "sha256": "f63314cfc93c8332369c324fc7ae2d4096fe77b59f1a7edcba4af19e190c0c1f"
+    },
+    {
+      "path": "labs/datalab/Makefile",
+      "sha256": "affe8c74efc998c0e7f18891c5ac3b07a34a4a76ea02189fae1d94130a923c7a"
+    },
+    {
+      "path": "labs/datalab/bits.c",
+      "sha256": "7c04fad2e21581331bef845329cbb9e053fc263a65f4be4076348c401030fd40"
+    },
+    {
+      "path": "labs/datalab/bits.h",
+      "sha256": "0d79b630ed85ca3ff7df00ec274d4b984987f2008b5e190a11b057b05ca623ea"
+    },
+    {
+      "path": "labs/datalab/btest.c",
+      "sha256": "7485322657382f8eadd405d7a489894b0c6d85a210280a095658239c76ca23c9"
+    },
+    {
+      "path": "labs/datalab/btest.h",
+      "sha256": "fbe2cdfa6e8c5eb04e06dba6b968e9b180a1b53f2a73cebd02c359b6a5521e20"
+    },
+    {
+      "path": "labs/datalab/decl.c",
+      "sha256": "a299516d34c0b70d1e998fc8842cd729914e33aff6a4bedc638f3d50282eaa7f"
+    },
+    {
+      "path": "labs/datalab/dlc",
+      "sha256": "5d9f7e5596ccf477d0176131d195dfce5678ca0abb90465bca6b90a74fbdc3e6"
+    },
+    {
+      "path": "labs/datalab/driver.pl",
+      "sha256": "31322b8f0f052589d6f3a0244aeb19a2a8503c53c197a65441ebf696e33cc764"
+    },
+    {
+      "path": "labs/datalab/fshow.c",
+      "sha256": "13c52f4bdb3ba473056bfcf0cb680dd9da31febb717b9308e10a1aa20a8abbff"
+    },
+    {
+      "path": "labs/datalab/ishow.c",
+      "sha256": "20ee4470df84e087fda7dec5ee76f5a06646d87be9306ac65894a15afc846961"
+    },
+    {
+      "path": "labs/datalab/tests.c",
+      "sha256": "e5a40fe58b68e69a67e14e30a2363f555e642eed59498c0e32f236e2a72c656d"
+    },
+    {
+      "path": "labs/malloclab/Makefile",
+      "sha256": "b54eef49d70b3096a59d10424c151f578c256a20af288cdc73bc3a40dfbe1763"
+    },
+    {
+      "path": "labs/malloclab/clock.c",
+      "sha256": "4d733e7fb19e8539ff657daadce164c593dd6de88429f8159ceca6e27e99848c"
+    },
+    {
+      "path": "labs/malloclab/clock.h",
+      "sha256": "a35f85a5d0a57356d5f1aaba483863576f435b94c822df7230805456ff279586"
+    },
+    {
+      "path": "labs/malloclab/clock.o",
+      "sha256": "a574d0b6d2d878c70f37b4678f193d228cff518577c60972cf871b64bae34f6c"
+    },
+    {
+      "path": "labs/malloclab/config.h",
+      "sha256": "e2bd2e37c9d4622baa870505ca52a5dacf5741924da45df86eb03841f3617c0b"
+    },
+    {
+      "path": "labs/malloclab/fcyc.c",
+      "sha256": "531aff2641d5d252402e9a2c4c92e11434384fa8f63221fb097dc9aa2f942f46"
+    },
+    {
+      "path": "labs/malloclab/fcyc.h",
+      "sha256": "5f3b1f772dd0ae2d40230d98cbd92839520a98761a1dcb6ebed425ffa407fc10"
+    },
+    {
+      "path": "labs/malloclab/fcyc.o",
+      "sha256": "3f0a674c7296fb222a453ffce74131bf751836f24a582bdde08ed4a2c4887cc2"
+    },
+    {
+      "path": "labs/malloclab/fsecs.c",
+      "sha256": "33ef95826b67d9326e4f8e518ebf81b5c88bfb7926eb1fc7fb2b847a08caf258"
+    },
+    {
+      "path": "labs/malloclab/fsecs.h",
+      "sha256": "8a0cc0c4680233066c076c0adb1132219ceff5fb37a8bd9eb2f258c58eb7ed01"
+    },
+    {
+      "path": "labs/malloclab/fsecs.o",
+      "sha256": "1422f863469ef9848582b7c0e4e1a44e82eae1839b6e8fc90ec4a386f1b8b071"
+    },
+    {
+      "path": "labs/malloclab/ftimer.c",
+      "sha256": "d085fa8025718492de0bebeff0043f02037c70a19ccbdd530d0120d33f1162ea"
+    },
+    {
+      "path": "labs/malloclab/ftimer.h",
+      "sha256": "c71e137827038b263bea0a09d4918f526b1e60a2b1c76c680631e7cf353b1658"
+    },
+    {
+      "path": "labs/malloclab/ftimer.o",
+      "sha256": "b8e8458dd1ae95c6cb03f54a5d403456cefe4d5522c0a77e07d95540eee0c515"
+    },
+    {
+      "path": "labs/malloclab/mdriver.c",
+      "sha256": "ea40fd6a651b6731bd5993ddd80b188017e4985482a3d491eae6abb850159d11"
+    },
+    {
+      "path": "labs/malloclab/memlib.c",
+      "sha256": "cbce3b00cd75444b0da956ba6f598c59509ec3b7fe30f958f277424561df78f7"
+    },
+    {
+      "path": "labs/malloclab/memlib.h",
+      "sha256": "b6bf538b7aa5bccefadd14ea6155123b825e9846b101c142e9a20a0d4f146516"
+    },
+    {
+      "path": "labs/malloclab/memlib.o",
+      "sha256": "7abf35c6aff9259074602e74c9b09a58d63ac6683f89673b3122852c7293c8cb"
+    },
+    {
+      "path": "labs/malloclab/mm.c",
+      "sha256": "19cfc0774ade9a7aad23dacb3cdadff2adb82b4f90beef48ff72c5ee306f7fb2"
+    },
+    {
+      "path": "labs/malloclab/mm.h",
+      "sha256": "ac14080f39d666264830673e7231a319183d335b01821f067cf0266743f4f7fa"
+    },
+    {
+      "path": "labs/malloclab/short1-bal.rep",
+      "sha256": "58ef8ebbbd7c3e7aea13a3827d2eb03b17c8873b3866d1758ec00a124af6a638"
+    },
+    {
+      "path": "labs/malloclab/short2-bal.rep",
+      "sha256": "a36a76ff786a4dd12618986db23d82a94af872764f065c46c595ad1daceac53f"
+    },
+    {
+      "path": "labs/malloclab/traces/amptjp-bal.rep",
+      "sha256": "df8ea9a628df86b6a0c3491598c78a18d975f8efa989b7d7019f65154f342494"
+    },
+    {
+      "path": "labs/malloclab/traces/binary-bal.rep",
+      "sha256": "12d7330679e215880adc6fe21bc25e47f5cd72f6db8a0515c858df9a1c8bebe2"
+    },
+    {
+      "path": "labs/malloclab/traces/binary2-bal.rep",
+      "sha256": "068e34c928a054a8e2180845a620b1a29b06366472f592c1a528670eb604a977"
+    },
+    {
+      "path": "labs/malloclab/traces/cccp-bal.rep",
+      "sha256": "fc60c779c8d24aac8783b0a35c7ea31488eac567cadcc43e2fbb198a5d40da7a"
+    },
+    {
+      "path": "labs/malloclab/traces/coalescing-bal.rep",
+      "sha256": "6353bd8ff80d84fdd1678ff122dd105d5cbc81a9ccf5d51d54718c9294c60bef"
+    },
+    {
+      "path": "labs/malloclab/traces/cp-decl-bal.rep",
+      "sha256": "b920339c0b716ae46f718b45e4225583ab18fbe315f2b170fc2c2c0706b24d03"
+    },
+    {
+      "path": "labs/malloclab/traces/expr-bal.rep",
+      "sha256": "548cc175b8faaa0b76c08c402245954645bdb30c8342b18a7078af2d68241d5b"
+    },
+    {
+      "path": "labs/malloclab/traces/random-bal.rep",
+      "sha256": "2035f966adae68d71f6540e70d23aa7d2ce181ad7a67b44af849b197fab971e8"
+    },
+    {
+      "path": "labs/malloclab/traces/random2-bal.rep",
+      "sha256": "54810dfc961b858532ea53219a606e2015013cf1ac4a363ec321d89a077cb0ca"
+    },
+    {
+      "path": "labs/malloclab/traces/realloc-bal.rep",
+      "sha256": "d67589e9f2cb786e5fa5de3d8e0d7dc3b5d659bf5a84114cc6a06842cb4badcf"
+    },
+    {
+      "path": "labs/malloclab/traces/realloc2-bal.rep",
+      "sha256": "369ad55a47165bcb5641301ca94a22672a450d17b7c9295821b3401c35e6fb7f"
+    },
+    {
+      "path": "labs/perflab/Makefile",
+      "sha256": "ade163ff620b22673e30b10ee71338c5a4a08e898a2f94186cceec8430d64fae"
+    },
+    {
+      "path": "labs/perflab/clock.c",
+      "sha256": "8f22a3c84182fb5381365f268fd33253fcd1da0029ca7ce7f85f5ab18e951c5e"
+    },
+    {
+      "path": "labs/perflab/clock.h",
+      "sha256": "a35f85a5d0a57356d5f1aaba483863576f435b94c822df7230805456ff279586"
+    },
+    {
+      "path": "labs/perflab/config.h",
+      "sha256": "a767a8d840d7ff7e4232e2cb4e435b3a473638135c82606a0f9468cdb18c6fba"
+    },
+    {
+      "path": "labs/perflab/defs.h",
+      "sha256": "f8c2829380c16cc471c81fe81498fab03c4ef2f87f19389d65fd439acfbef2b1"
+    },
+    {
+      "path": "labs/perflab/driver.c",
+      "sha256": "9878a4cae053ebce5ce7da3f68e17eb2f61e2b770bc24293a5e14b94edfc6505"
+    },
+    {
+      "path": "labs/perflab/fcyc.c",
+      "sha256": "0d65ea480a1868ad9700f3e6ff1078ad24bee80f6d2dc7fed00c20618a2a4f08"
+    },
+    {
+      "path": "labs/perflab/fcyc.h",
+      "sha256": "181ff33533e30b2138808257a4c4055ab7821c41dc3da1471dedb6f3dabf792d"
+    },
+    {
+      "path": "labs/perflab/kernels.c",
+      "sha256": "6d9a8e956cca77e5c1c8a1fbf8ba0db477f8fad461df67f186f4f3ccaa76a8bb"
+    },
+    {
+      "path": "labs/proxylab/Makefile",
+      "sha256": "78fedb4fa44df1cb735201269b45c084d82a1225c98e57ff8907e82aa9268120"
+    },
+    {
+      "path": "labs/proxylab/csapp.c",
+      "sha256": "1e5e10a17b14dd73e2a2b4ccb02c18cf4f46bcf0e57fbf87f50616ecd00d0945"
+    },
+    {
+      "path": "labs/proxylab/csapp.h",
+      "sha256": "7049166ef1fe57159e668c853e522c517c2d426931ac5ff41163350c2b0bbd7c"
+    },
+    {
+      "path": "labs/proxylab/driver.sh",
+      "sha256": "8ce90b3618bfba3f411c2d0e4bce5667d841bacbd8cdbf44350d4d060308c697"
+    },
+    {
+      "path": "labs/proxylab/free-port.sh",
+      "sha256": "cf65a7ee80d8f8fda161035bf6e9c0b97f2835f1e3b4db52618f6257d5bde9a9"
+    },
+    {
+      "path": "labs/proxylab/nop-server.py",
+      "sha256": "9ab704c1077224cb4bf7b8acddc90a0cddf24b02cf7e0b39f1e9415fe2fba340"
+    },
+    {
+      "path": "labs/proxylab/port-for-user.pl",
+      "sha256": "00b55a52f4da72aded4f224f797807356b67c60de3251eaa54870eaa625f042c"
+    },
+    {
+      "path": "labs/proxylab/proxy.c",
+      "sha256": "d8026fd4cf84a70391f10110a9728d68f6061022f421cb5c3df5873735ea58fa"
+    },
+    {
+      "path": "labs/proxylab/tiny/Makefile",
+      "sha256": "2b2f39e61eb1440c2bfc1813264469c05a91b85b0773838f213e45bf74de94a9"
+    },
+    {
+      "path": "labs/proxylab/tiny/cgi-bin/Makefile",
+      "sha256": "a5b774cdfc3240d608c020da347a4c47213c08b7435d3ecd1ef12ac7201fde07"
+    },
+    {
+      "path": "labs/proxylab/tiny/cgi-bin/adder.c",
+      "sha256": "953a397f7d9ed53f899001bb4ec0bc0cb9a77b4b1eed3b23f875e5d56839d512"
+    },
+    {
+      "path": "labs/proxylab/tiny/csapp.c",
+      "sha256": "1e5e10a17b14dd73e2a2b4ccb02c18cf4f46bcf0e57fbf87f50616ecd00d0945"
+    },
+    {
+      "path": "labs/proxylab/tiny/csapp.h",
+      "sha256": "7049166ef1fe57159e668c853e522c517c2d426931ac5ff41163350c2b0bbd7c"
+    },
+    {
+      "path": "labs/proxylab/tiny/godzilla.gif",
+      "sha256": "26f801df7d6dd32486c28c5bb36630da87827c184a3642f4ffa617ac1053c02d"
+    },
+    {
+      "path": "labs/proxylab/tiny/godzilla.jpg",
+      "sha256": "8dd583cd510b7305e650ce1e6c1e293802d822d8a742b7874731c25f78ad4ac1"
+    },
+    {
+      "path": "labs/proxylab/tiny/home.html",
+      "sha256": "fc87a8ad43b47b271400a73f28f2d3a7fed651cc386e9758c58302a935d8e984"
+    },
+    {
+      "path": "labs/proxylab/tiny/tiny.c",
+      "sha256": "6244dda03ff635452a7fe4fd756fc7263e6fd46c151a18ffd6228894589ffe16"
+    },
+    {
+      "path": "labs/shelllab/Makefile",
+      "sha256": "91722ce02e1d94959f6df57bb39032f012cd627e4ae42eccdcc35f4a655fceea"
+    },
+    {
+      "path": "labs/shelllab/myint.c",
+      "sha256": "00de8fb0de13b0e6cfefa073c980ca87dd8dd8c7888beae952e098c4d4ce5d4b"
+    },
+    {
+      "path": "labs/shelllab/myspin.c",
+      "sha256": "2270d12618bca07445cfcf345344138292c98b547cdd2f1040ea4d113821fd3f"
+    },
+    {
+      "path": "labs/shelllab/mysplit.c",
+      "sha256": "8a7c6a7e450126bb279ccd1382099bc26d0e4cd51a9f926b6f5cf46ad33273c2"
+    },
+    {
+      "path": "labs/shelllab/mystop.c",
+      "sha256": "0bf011b2308fdb24a21ae8c5b83a9efb09a5a4f6d424dd946a8560ecb9b5ca48"
+    },
+    {
+      "path": "labs/shelllab/sdriver.pl",
+      "sha256": "a808c269a4cc7fe01b68d6cb2426275debe051b57811efdad0345b46ccf455e0"
+    },
+    {
+      "path": "labs/shelllab/trace01.txt",
+      "sha256": "900d6972e98bb0b908baf01921d74ceae3eb04d8c1252cae53af6077782a71fd"
+    },
+    {
+      "path": "labs/shelllab/trace02.txt",
+      "sha256": "f031e830c743bd7366b31fd11aabad53a38ae9d4d582a7ea4eba264585dacd8b"
+    },
+    {
+      "path": "labs/shelllab/trace03.txt",
+      "sha256": "3b59d9c3f89c50fa2d6217e59a379c3cdd60653db92996c106aa28f92759bf96"
+    },
+    {
+      "path": "labs/shelllab/trace04.txt",
+      "sha256": "a6627c964f671bd828ad4eaef133ad513e175bf4f31519bcebbedf0a31d12465"
+    },
+    {
+      "path": "labs/shelllab/trace05.txt",
+      "sha256": "d5567cadff87acc7c5db46a87c930340412b4e73dc00a317aa6c565613b86887"
+    },
+    {
+      "path": "labs/shelllab/trace06.txt",
+      "sha256": "c57440556b3484b1a44ae88cfe9e0a65abfda21e411b5e695606bb957a830140"
+    },
+    {
+      "path": "labs/shelllab/trace07.txt",
+      "sha256": "d9307888c6f62e01894f4516cf888d1af93539dc490b2befd862a53bfd988975"
+    },
+    {
+      "path": "labs/shelllab/trace08.txt",
+      "sha256": "db18e036ec4919222c10d406623598ff99ba008c72a700f7656deec7eeedf6df"
+    },
+    {
+      "path": "labs/shelllab/trace09.txt",
+      "sha256": "a1dcfb605b0964257550d1228b2c0cbe935091d0152aa50eaf5becc1a54c5ca3"
+    },
+    {
+      "path": "labs/shelllab/trace10.txt",
+      "sha256": "68c94fc1f7c022757ba7a1ccf6dc11d64e059c495c37c7b98635377a4fb029f8"
+    },
+    {
+      "path": "labs/shelllab/trace11.txt",
+      "sha256": "a59df12a68443571d8de0c0f9f1d0fe0442c8e4ede655f9ef39c0f40742996b5"
+    },
+    {
+      "path": "labs/shelllab/trace12.txt",
+      "sha256": "300c7ec1823e8b2701387c1c41c265bb322591715fb26abae7c6133436cd7a6d"
+    },
+    {
+      "path": "labs/shelllab/trace13.txt",
+      "sha256": "b6c11b2b053d8368a42fdead08dd9be41c55cfb9de16cab4a284ec8405b09495"
+    },
+    {
+      "path": "labs/shelllab/trace14.txt",
+      "sha256": "f95db6e8d76def83b8c05328afe911ac83b8ef4da8c8d41a947923a5a7d70bbf"
+    },
+    {
+      "path": "labs/shelllab/trace15.txt",
+      "sha256": "686059788bf8e159ef83d933ca1c8ed2fdf90b76dc1ce43b1f20fb52ab0a633d"
+    },
+    {
+      "path": "labs/shelllab/trace16.txt",
+      "sha256": "60f5a502cfa34baa8db55f7089aae8c5b9f0b47cd3d65619588155d54e3f050e"
+    },
+    {
+      "path": "labs/shelllab/tsh.c",
+      "sha256": "2a3d688534058481002126a9632a5d99926d765e4b703b89cc0b956466a4199c"
+    },
+    {
+      "path": "labs/shelllab/tshref",
+      "sha256": "66ee977907fe3f53f47583d04cd1c14e4f4f02ee77cad77b32dba1aa36bb82cb"
+    },
+    {
+      "path": "labs/shelllab/tshref.out",
+      "sha256": "dbf2551efa448575230fb5a2945e8b734178438c62ea6d1b91142930e04474f4"
+    }
+  ]
+}
